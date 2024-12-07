@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Inter;
+}
+
+.header{
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 89%, 66%);
+  color: hsl(0, 0%, 100%);
+}
+
+.header h1{
+  font-size: 14.46px;
+  margin-inline-start: 6px;
+}
+
+.destination{
+  max-width: 670px;
+  height: 168px;
+  display: flex;
+  margin: 1em auto;
+
+}
+
+.destination__photo{
+  min-width: 125px;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.destination__photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.destination__details{
+  padding: 1em;
+}
+
+.destination__details header{
+  display: flex;
+  align-items: center;
+}
+
+.destination__details__google-maps-link{
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  color: #918E9B;
+}
+
+.destination__details__country{
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-inline: 6px;
+}
+
+.destination__details__title{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  margin-block: 8px 6px;
+}
+
+.destination__details__date{
+  display: inline-block;
+  font-size: 11.24px;
+  font-weight: 700;
+  margin-block-end: 6px;
+  color: #2B283A;
+}
+
+.destination__details__description{
+  font-size: small;
+  color: #2B283A;
+}
+
+
+
